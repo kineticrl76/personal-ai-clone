@@ -23,7 +23,7 @@ This isn’t about automating love or replacing a parent with a script. It is ab
 The primary drive for this system isn't just generic administrative automation; it is designed around the hyper-specific rhythms of my two daughters:
 
 * **The 17-Year-Old (IGCSE Tracking):** My eldest is tackling her IGCSEs right now. Managing her intense revision schedule requires the kind of daily organizational reminders traditionally shared by a mother. On top of that, she frequently sends me WhatsApp messages asking how to simplify complex algebraic equations or solve multi-step problems. She could easily use commercial platforms like ChatGPT or Gemini for this—but she chooses to ask *me*. It is her way of maintaining a shared bond, knowing that no matter how busy I am, I love solving complex puzzles. The clone needs to step in to help manage her schedule and provide a fallback framework for reviews without breaking that delicate emotional line.
-* **The 13-Year-Old (Foundational Mathematics):** My youngest needs direct, consistent help with her math curriculum. Because my career forces me into brutal, late-night on-call shifts, I physically cannot sit next to her every evening to teach her. The AI clone will be tasked with messaging her directly, checking if she has homework, parsing her questions, and explaining foundational concepts in a way she can grasp, while the system safely relays her immediate physical needs back to my terminal.
+* **The 13-Year-Old (Foundational Mathematics):** My youngest needs direct, consistent help with her math curriculum. Because my career forces me into brutal, late-night classes and occassional on-call shifts, I physically cannot sit next to her every evening to teach her. The AI clone will be tasked with messaging her directly, checking if she has homework, parsing her questions, and explaining foundational concepts in a way she can grasp, while the system safely relays her immediate physical needs back to my terminal.
 
 ---
 
@@ -43,26 +43,8 @@ The 16GB of VRAM on the 5060 Ti represents the absolute hard ceiling for my loca
 
 ## 4. Technical Architecture Blueprint
 To treat this personal project with the same engineering rigor as an enterprise operations platform, I designed the clone around a **Hybrid-Orchestrated Agentic Framework** driven by **Localized Open-Weights Personality Replication**.
-          +-------------------------------------+
-          |  Messaging Apps (WhatsApp/Signal)   |
-          +-------------------------------------+
-                             |
-                             v
-          +-------------------------------------+
-          |          OpenClaw Gateway           |
-          |     (Control Plane / Port 18789)    |
-          +-------------------------------------+
-                 /                       \
-   (Local / Fast Inference)        (Complex Logic / Tool Use Only)
-               /                           \
-              v                             v
+     <img width="416" height="403" alt="image" src="https://github.com/user-attachments/assets/e058053d-7963-4212-81f0-f809350da353" />
 
-+-------------------------------+     +-------------------------------+
-|            OLLAMA             |     |       ONLINE CLAUDE API       |
-| - Mistral / Llama 3 (8B/14B)  |     | - Closed-source Cloud Engine  |
-| - Localized RAG (Private Logs)|     | - Tool & Execution Scaling    |
-| - Complete Context Isolation  |     |   (e.g., Calling Delivery)    |
-+-------------------------------+     +-------------------------------+
 
 Here is how the system enterprise pillars map to this consumer-hardware implementation:
 
