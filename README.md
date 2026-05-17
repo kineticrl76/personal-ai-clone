@@ -1,4 +1,6 @@
 # The Multiplicity Project: Why a Single Father is Building a Local AI Clone
+<img width="511" height="279" alt="image" src="https://github.com/user-attachments/assets/8804d4b1-74b8-49ae-9bd0-9b6d9d93a987" />
+
 
 **Author:** kinetic_rl76, Senior IT Operations & Infrastructure Leader & AI/ML Innovator  
 **Project State:** Active Prototype (Last Backend Update: May 2026)  
@@ -31,6 +33,8 @@ The primary drive for this system isn't just generic administrative automation; 
 I wanted this system entirely self-hosted. When you are feeding a model real family chat logs, personal anecdotes, academic patterns, and deeply private behavioral tendencies, data privacy isn't just a preference—it’s a non-negotiable boundary. Sending that raw, intimate data to a commercial cloud API was completely out of the question.
 
 As much as I wanted to architect a high-end, multi-GPU home server for this project, a massive enterprise rig simply isn't in the budget right now. Instead, I had to work within the realities of consumer hardware. The entire framework is currently being executed on a capable, mid-tier consumer machine:
+
+<img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/d4047290-e082-4a94-9fd0-ef25a3db706a" />
 
 * **Processor:** Intel Core Ultra 7
 * **Graphics:** NVIDIA GeForce RTX 5060 Ti (16GB VRAM)
